@@ -10,6 +10,9 @@ spec:
       app: guestbook-ui
   template:
     metadata:
+      annotations:
+        multicluster.admiralty.io/clustername: cluster3-dallas
+        multicluster.admiralty.io/elect: ""
       labels:
         app: guestbook-ui
     spec:
